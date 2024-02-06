@@ -1,0 +1,31 @@
+.fc {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+:root {
+    --fc-button-text-color: #fff;
+    --fc-button-bg-color: oklch(var(--p));
+    --fc-button-border-color: oklch(var(--p));
+    --fc-button-hover-bg-color: #1e2b37;
+    --fc-button-hover-border-color: #1a252f;
+    --fc-button-active-bg-color: #1a252f;
+    --fc-button-active-border-color: #151e27;
+
+
+
+    --fc-event-bg-color: oklch(var(--p));
+    --fc-event-border-color: oklch(var(--p));
+    --fc-event-text-color: #fff;
+    --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+}
+
+.fc .fc-button-primary:focus {
+    box-shadow: oklch(var(--p));
+}
+
+.fc .fc-toolbar-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin: 0px;
+}
